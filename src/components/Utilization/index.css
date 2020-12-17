@@ -1,0 +1,88 @@
+.utilization {
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+    border: solid 1px #edeff5;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 24px 20px 10px;
+}
+
+.utilization__header {
+    border-bottom: 1px solid #f5f7fa;
+    padding: 13px 20px 9px;
+    font-size: 12px;
+    color: #c6c8d8;
+    text-transform: uppercase;
+}
+
+.utilization__content {
+    padding: 20px 20px 0;
+    font-size: 12px;
+    color: #666d7f;
+}
+
+.utilization__item {
+    padding-bottom: 27px;
+}
+
+.utilization__item_header {
+    height: 14px;
+    margin-bottom: 10px;
+}
+
+.utilization__item-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.utilization__item_icon {
+    width: 15px;
+    height: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.utilization__item_icon-available {
+    background-image: url('./../../assets/icons/green_car.svg');
+}
+
+.utilization__item_icon-regular {
+    background-image: url('./../../assets/icons/blue_car.svg');
+}
+
+.utilization__item_icon-carpool {
+    background-image: url('./../../assets/icons/purple_car.svg');
+}
+
+.utilization__item-row {
+    width: 100%;
+    height: 2px;
+    background-color: #f3f5fa;
+    margin-left: 6px;
+    margin-right: 12px;
+    position: relative;
+}
+
+.utilization__item-filled {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.utilization__item_number {
+    width: 25px;
+    text-align: center;
+}
+
+.utilization__item-filled_available {
+    background-color: #5eebc8;
+}
+
+.utilization__item-filled_regular {
+    background-color: #0cadfe;
+}
+
+.utilization__item-filled_carpool {
+    background-color: #b27cf9;
+}

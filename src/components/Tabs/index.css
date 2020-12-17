@@ -1,0 +1,17 @@
+.tab__list {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-item {
+    padding: 10px;
+    color: #666d7f;
+    background-color: #edeff5;
+    cursor: pointer;
+}
+
+.tab-item_active {
+    background-color: #666d7f;
+    color: #edeff5;
+}
